@@ -1,0 +1,21 @@
+.slides-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.google-slide-container{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(30, 5, 35);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.google-slide-caption{
+    display:inline-block;
+    position: relative;
+    bottom: 500px;
+    color: whitesmoke;
+    padding: 100px;
+}
