@@ -14,8 +14,22 @@
 
 .google-slide-caption{
     display:inline-block;
-    position: relative;
+    position: relative; 
     bottom: 500px;
     color: whitesmoke;
     padding: 100px;
+}
+
+.column-caption{
+    text-align: center;
+}
+
+.img-fix{
+    aspect-ratio: 6/4;
+}
+
+.text-column-fix{
+    top: -20px;
+    position:relative;
+
 }
