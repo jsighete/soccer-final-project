@@ -39,15 +39,17 @@
            </div>
        </nav>
 <!-- HERO SECTION-->
-       <div class="px-4 py-5 mb-5 text-center bg-light">
-           <h1 class="display-5 fw-bold">Centered hero</h1>
-           <div class="col-lg-6 mx-auto">
-             <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-               <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Visit SlideShow</button>
-             </div>
-           </div>
-       </div>
+       <div class="hero-pattern">
+            <div class="px-4 py-5 mb-5 text-light text-center bg-dark">
+                <h1 class="display-5 fw-bold">Centered hero</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Visit SlideShow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
        <div class="column-caption">
         <h1>Three major technological advancements in Soccer</h1>
@@ -73,85 +75,145 @@
        </div>
     </div>
 
- <div class="slides-container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="img/goaline-img.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-        <img src="img/ball-tech-img(1).png" class="d-block w-100 img-fix" alt="...">
-        </div>
-        <div class="carousel-item">
-        <img src="img/VAR-room-img.webp" class="d-block w-100" alt="...">
-        </div>
-    </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
- </div>
+<!-- TEXT COLUMN-->
+   <div class="container mt-4 d-flex justify-content-center">
+  <div class="row w-100 justify-content-center text-center">
 
- <div class="google-slide-container">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRR1kC7eGoTnTDXSq8OropWeW3X9-e8vBhMKCA6mcw5NPsXJ6flgAl-eQOI2PkokvaWNOOJh-5tHbYR/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
- </div>
- 
- <div class="google-slide-caption text-wrap">
-    <h1>Lorem Ipsum</h1>
-    <p class="text-start">lorem ipsum sample paragraph words hello one two three</br> lorem ipsum sample paragraph words hello one two three</p>
- </div>
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="text-column">
+        <h3>Column One</h3>
+        <p>Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.</p>
+      </div>
+    </div>
 
-        <div class="bg-dark text-white py-5 footer">
-      <div class="container py-5">
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="text-column">
+        <h3>Column Two</h3>
+        <p>Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="text-column">
+        <h3>Column Three</h3>
+        <p>Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- SLIDE PRESENTATION START -->
+    <div class="google-slide-container text-white py-5 presentation" id="slides">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-3 pb-5">
-              <h5>Heading 1</h3>
-              <ul class="text-white-50">
-                  <li>Lorem ipsum dalor</li>
-                  <li>Site amet</li>
-                  <li>...</li>
-                  <li>...</li>
-              </ul>
+          <div class="col-md py-5">
+            <h2 class="fw-bold">Mauris eget</h2>
+            <p>
+              Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+              Sed a congue urna. Mauris eget lacus quam.
+            </p>
+            <p>
+              Sed augue risus, sollicitudin sollicitudin eleifend posuere,
+              congue mattis eros. Proin mollis est dolor, sed pulvinar enim
+              facilisis eget.
+            </p>
+            <button type="button" class="btn btn-lg btn-dark btn-unique">
+                Button <i class="bi bi-chevron-right"></i>
+            </button>
           </div>
-          <div class="col-sm-3 pb-5">
-              <h5>Heading 2</h3>
-                  <ul class="text-white-50">
-                      <li>Lorem ipsum dalor</li>
-                      <li>Site amet</li>
-                      <li>...</li>
-                      <li>...</li>
-                  </ul>
-          </div>
-          <div class="col-sm-3 pb-5">
-              <h5>Heading 3</h3>
-                  <ul class="text-white-50">
-                      <li>Lorem ipsum dalor</li>
-                      <li>Site amet</li>
-                      <li>...</li>
-                      <li>...</li>
-                  </ul>
-          </div>
-          <div class="col-sm-3 pb-5">
-              <h5>Heading 4</h3>
-                  <ul class="text-white-50">
-                      <li>Lorem ipsum dalor</li>
-                      <li>Site amet</li>
-                      <li>...</li>
-                      <li>...</li>
-                  </ul>
+          <div class="col-md-8 py-5">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRR1kC7eGoTnTDXSq8OropWeW3X9-e8vBhMKCA6mcw5NPsXJ6flgAl-eQOI2PkokvaWNOOJh-5tHbYR/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
           </div>
         </div>
       </div>
+    </div>
+    <!-- SLIDE PRESENTATION END -->
+
+
+
+
+    <div class="carousel-wrapper footer-pattern-overlay">
+        <div class="slides-container py-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/goaline-img.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/ball-tech-img(1).png" class="d-block w-100 img-fix" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/VAR-room-img.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-pattern-overlay">
+            <div class="bg-dark text-white py-5 footer">
+        <div class="container py-5">
+            <div class="row">
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 1</h3>
+                <ul class="text-white-50">
+                    <li>Lorem ipsum dalor</li>
+                    <li>Site amet</li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 2</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 3</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 4</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+        </div>
     </div>
 
     </body>
