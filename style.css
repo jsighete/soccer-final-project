@@ -101,3 +101,10 @@
     linear-gradient(315deg, rgba(238, 238, 238, 0.02) 25%, transparent 25%) 20px 20px / 40px 40px;
 }
 
+.footer-container a:link, a:visited, a:hover, a:active, a:focus {
+  width: 10%;
+  margin:  0 auto;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
